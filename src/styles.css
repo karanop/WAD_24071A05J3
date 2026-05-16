@@ -69,12 +69,18 @@ button {
 }
 
 .page-wrap {
+  flex: 1;
   padding: 24px;
 }
 
 .page {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
 }
 
 .page-head h1 {
@@ -174,6 +180,13 @@ button {
   gap: 12px;
   padding: 10px 0;
   border-top: 1px solid #eee;
+}
+
+.footer {
+  padding: 16px 24px;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #ddd;
 }
 
 @media (max-width: 640px) {

@@ -229,6 +229,8 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
+
+      <footer className="footer">24071A05J3</footer>
     </div>
   );
 }
