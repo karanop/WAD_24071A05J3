@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Bill Calculator</title>
+</head>
+<body>
+    <h2>Medicine Bill Calculator</h2>
+    <form action="MedicineBillServlet" method="post">
+        <label>Medicine Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Price per unit (₹):</label>
+        <input type="number" name="price" step="0.01" required><br><br>
+
+        <label>Quantity:</label>
+        <input type="number" name="qty" required><br><br>
+
+        <button type="submit">Calculate Bill</button>
+    </form>
+</body>
+</html>
